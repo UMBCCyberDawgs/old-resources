@@ -1,7 +1,7 @@
 permalink: /:year/:month/:day/:title/
 
 # where you plan to publish your site
-url: http://umbccyberdawgs.github.io
+url: http://umbccd.umbc.edu
 # any subdirectory that appears after the domain where you're publishing your site
 baseurl: "/resources"
 # this property is useful for conditional filtering of content that is separate from the PDF.

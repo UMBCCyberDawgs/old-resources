@@ -4,6 +4,4 @@ topnav:
 - title: Topnav
   items:
     - title: Home
-      external_url: http://umbccyberdawgs.github.io/
-    - title: Blog
-      external_url: http://umbccyberdawgs.github.io/blog/
+      external_url: http://umbccd.umbc.edu

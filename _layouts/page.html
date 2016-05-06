@@ -18,12 +18,7 @@ layout: default
 
     {% unless jekyll.environment == "production" %}
 
-    {% if site.github_editme_path %}
-
-    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "html" %}{{page.url | replace: '.html', '.md'}}{% endunless %}{% if page.url contains "html" %}{{page.url }}{% endif %}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-    {% endif %}
-
-    {% endunless %}
+        {% endunless %}
 
   {{content}}
 
@@ -38,10 +33,6 @@ layout: default
     {% endfor %}
     {% endif %}
 </div>
-
-    {% if site.disqus %}
-{% include disqus.html %}
-    {% endif %}
 
 </div>
 

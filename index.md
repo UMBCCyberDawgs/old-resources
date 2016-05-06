@@ -1,28 +1,16 @@
 ---
-title: Getting started overview
-tags: [getting_started]
-sidebar: mydoc_sidebar
+title: UMBC Cyber Dawgs Resources - Getting Started
 type: homepage
 ---
 
 ## Overview 
 
-These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+Currently this site is a work in progress. This site will be a central
+repository of sites, tutorials, walkthroughs, etc. for anyone to come and learn
+cyber security.  
 
-## Build this theme
+If you would like to contribute to this repository please [fork][1] the
+[project][2] on GitHub
 
-If you're used to running Jekyll sites, you can type the normal jekyll command, `jekyll serve`, to run this site. However, if you're a new Jekyll user or if you run into issues, see the following two topics:
-
-* {{site.data.urls.mydoc_install_jekyll_on_mac.link}}
-* {{site.data.urls.mydoc_install_jekyll_on_windows.link}}
-
-## Managing links
-
-If you want to use a simple system for managing links, see the "Managed Links" section in {{site.data.urls.mydoc_hyperlinks.link}}.
-
-## Other instructions
-
-For other details in working with the theme, see the various sections in the sidebar.
-
-
-
+[1]: https://github.com/UMBCCyberDawgs/resources#fork-destination-box
+[2]: https://github.com/UMBCCyberDawgs/resources

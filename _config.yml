@@ -12,10 +12,6 @@ topnav_title: UMBC Cyber Dawgs Resources
 site_title: Compilation of resources for getting into cybersecurity
 # this appears in the footer
 company_name: UMBC Cyber Defense Team
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-github_editme_path: UMBCCyberDawgs/resources
-# if you're using disqus for comments, add the shortname here. if not, leave this value blank.
-disqus_shortname: idrbwjekyll
 # the preview server used. Leave as is.
 host: 127.0.0.1
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts.
@@ -25,14 +21,12 @@ port: 4005
 exclude:
   - _site
   - _drafts/
-  - .idea/
-
+  - .git
 
 feedback_disable: True
 #feedback_email: umbccd@gmail.com
 #feedback_text: "Need help?"
 #feedback_link: "http://helpy.io/"
-# change feedback link behaviour if you use a support ticketing system or something else
 
 highlighter: rouge
 # library used for syntax highlighting
@@ -45,11 +39,6 @@ kramdown:
  syntax_highlighter: rouge
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
-collections:
-  tooltips:
-    output: false
-# collection declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output.
-
 defaults:
   -
     scope:
@@ -58,7 +47,6 @@ defaults:
     values:
       layout: "page"
       comments: true
-      search: true
       sidebar: home_sidebar
   -
     scope:
@@ -67,21 +55,6 @@ defaults:
     values:
       layout: "page"
       comments: true
-      search: true
       tooltip: true
 
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      search: true
-      sidebar: tags_sidebar
-
-# these are defaults used for the frontmatter for these file types
-
-
 description: "The UMBC Cyber Defense Team's resource wiki. This contains all information that we have found important compiled into one resource."
-# the description is used in the feed.xml file

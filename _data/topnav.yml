@@ -1,0 +1,9 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Home
+      external_url: http://umbccyberdawgs.github.io/
+    - title: Blog
+      external_url: http://umbccyberdawgs.github.io/blog/

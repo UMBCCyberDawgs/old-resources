@@ -1,35 +1,21 @@
 permalink: /:year/:month/:day/:title/
 
-# where you plan to publish your site
 url: http://umbccd.umbc.edu
-# any subdirectory that appears after the domain where you're publishing your site
 baseurl: "/resources"
-# this property is useful for conditional filtering of content that is separate from the PDF.
 output: web
-# this appears on the top navigation bar next to the home button
 topnav_title: UMBC Cyber Dawgs Resources
-# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 site_title: Compilation of resources for getting into cybersecurity
-# this appears in the footer
 company_name: UMBC Cyber Defense Team
-# the preview server used. Leave as is.
+description: "The UMBC Cyber Defense Team's resource wiki. This contains all information that we have found important compiled into one resource."
 host: 127.0.0.1
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts.
 port: 4005
 
-# these are the files and directories that jekyll will exclude from the build
 exclude:
   - _site
   - _drafts/
   - .git
 
-feedback_disable: True
-#feedback_email: umbccd@gmail.com
-#feedback_text: "Need help?"
-#feedback_link: "http://helpy.io/"
-
 highlighter: rouge
-# library used for syntax highlighting
 
 markdown: kramdown
 kramdown:
@@ -37,7 +23,6 @@ kramdown:
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
 defaults:
   -
@@ -57,4 +42,3 @@ defaults:
       comments: true
       tooltip: true
 
-description: "The UMBC Cyber Defense Team's resource wiki. This contains all information that we have found important compiled into one resource."

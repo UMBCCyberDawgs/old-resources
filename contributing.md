@@ -1,5 +1,5 @@
 ---
-title: Contributing Guidelines
+title: Contribution Guidelines
 authors:
   - Julio Valcarcel
 ---

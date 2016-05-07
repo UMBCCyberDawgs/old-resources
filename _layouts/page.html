@@ -35,6 +35,24 @@ layout: default
 </div>
 
 </div>
+{% assign authorCount = page.authors | size %}
+{% if authorCount == 1 %}
+<span class="author">
+  Written by {{ page.authors | first }}
+</span>
+{% elsif authorCount >= 2 %}
+<span class="author">
+  Written by {% for author in page.authors %}
+        {% if forloop.first %}
+            {{ author }},
+        {% elsif forloop.last %}
+          and {{ author }}
+        {% else %}
+          {{ author }},
+        {% endif %}
+    {% endfor %}
+</span>
+{% endif %}
 
 {{site.data.alerts.hr_shaded}}
 

@@ -569,7 +569,7 @@ hr.shaded {
     height: 12px;
     border: 0;
     box-shadow: inset 0 6px 6px -6px rgba(0,0,0,0.5);
-    margin-top: 70px;
+    margin-top: 35px;
     background: white;
     width: 100%;
     margin-bottom: 10px;
@@ -1037,3 +1037,7 @@ table thead th code.highlighter-rouge {
     background-color: transparent;
 }
 
+span.author {
+  font-style: italic;
+  float: right;
+}

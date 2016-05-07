@@ -11,7 +11,11 @@ entries:
       url: /
       type: homepage
       output: web
+  
+  - title: Linux
+    output: web
+    folderitems:
 
-    #- title: Introduction
-      #url: '/introduction/'
-      #output: web
+      - title: SELinux
+        url: /linux/selinux/
+        output: web

@@ -11,7 +11,11 @@ entries:
       url: /
       type: homepage
       output: web
-  
+    
+    - title: Contributing Guidelines
+      url: /contributing/
+      output: web
+
   - title: Linux
     output: web
     folderitems:
@@ -19,3 +23,4 @@ entries:
       - title: SELinux
         url: /linux/selinux/
         output: web
+

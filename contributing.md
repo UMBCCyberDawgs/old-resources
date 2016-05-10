@@ -12,7 +12,7 @@ below.
 
 The first thing you will need to contribute is a git client. On Linux all you
 need to do is use your distro's package manager to install the git package. On
-Windows or OSx you will need to go to the [git download page][1] and get either
+Windows or OS X you will need to go to the [git download page][1] and get either
 the command line package or a GUI client.
 
 First you will need to <a href="#" data-toggle="tooltip"
@@ -24,7 +24,7 @@ data-toggle="tooltip" data-original-title="{{site.data.glossary.git_pull_request
 pull request</a>. 
  
 For more information on how to fork a repository on GitHub please review their
-[documenation][3] and for submitting pull requests [here][4].
+[documentation][3] and for submitting pull requests [here][4].
 
 
 [1]: https://git-scm.com/downloads

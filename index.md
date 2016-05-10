@@ -7,7 +7,7 @@ type: homepage
 
 Currently this site is a work in progress. This site will be a central
 repository of sites, tutorials, walkthroughs, etc. for anyone to come and learn
-cyber security.  
+cyber security.
 
 If you would like to contribute to this repository please read our
 [contribution guidelines][1]

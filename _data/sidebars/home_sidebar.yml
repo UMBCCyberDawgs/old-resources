@@ -11,10 +11,18 @@ entries:
       url: /
       type: homepage
       output: web
-    
+
     - title: Contribution Guidelines
       url: /contributing/
       output: web
+
+  - title: Intro to Security
+    output: web
+    folderitems:
+
+      - title: Welcome!
+        url: /intro/welcome/
+        output: web
 
   - title: Linux
     output: web

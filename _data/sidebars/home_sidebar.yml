@@ -24,6 +24,10 @@ entries:
         url: /intro/welcome/
         output: web
 
+      - title: Gathering Your Tools
+        url: /intro/gathering-your-tools/
+        output: web
+
   - title: Linux
     output: web
     folderitems:

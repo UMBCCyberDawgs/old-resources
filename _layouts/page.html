@@ -40,15 +40,17 @@ layout: default
 <span class="author">
   Written by {{ page.authors | first }}
 </span>
-{% elsif authorCount >= 2 %}
+{% elsif authorCount == 2 %}
+<span class="author">
+  Written by {{ page.authors[0] }} and {{ page.authors[1] }}
+</span>
+{% else %}
 <span class="author">
   Written by {% for author in page.authors %}
-        {% if forloop.first %}
-            {{ author }},
-        {% elsif forloop.last %}
-          and {{ author }}
+        {% if forloop.last %}
+            and {{ author }}
         {% else %}
-          {{ author }},
+        {{ author }},
         {% endif %}
     {% endfor %}
 </span>

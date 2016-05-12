@@ -2,6 +2,7 @@
 title: Contribution Guidelines
 authors:
   - Julio Valcarcel
+  - Zack Orndorff
 ---
 
 We would love for you to contribute to this collection of resources. In order
@@ -25,6 +26,23 @@ pull request</a>.
  
 For more information on how to fork a repository on GitHub please review their
 [documentation][3] and for submitting pull requests [here][4].
+
+## Adding a page
+
+### Content
+
+To add a new page, first figure out what section you want to add to. Currently,
+we're trying to structure our URLs like
+`umbccd.umbc.edu/resources/path/the-topic/`. As a result, our folder structure
+has to mirror that. So for instance, for the Intro to Security section, there's
+an intro folder. To add a page to that section, you would add a new folder
+corresponding to the path you want it to have, then the actual content goes in
+a index.md file within that new folder.
+
+### Navigation
+
+To add to the left hand side navigation, you'll need to add a few lines to
+`\_data/sidebars/home_sidebar.yml`. It should be fairly straightforward.
 
 
 [1]: https://git-scm.com/downloads

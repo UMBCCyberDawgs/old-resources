@@ -1,6 +1,9 @@
 ---
 title: UMBC Cyber Dawgs Resources - Getting Started
 type: homepage
+authors: 
+  - Julio Valcarcel
+  - Zack Orndorff
 ---
 
 ## Overview 

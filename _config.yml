@@ -1,5 +1,4 @@
 permalink: /:year/:month/:day/:title/
-
 url: http://umbccd.umbc.edu
 baseurl: "/resources"
 output: web

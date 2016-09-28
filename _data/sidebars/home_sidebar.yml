@@ -28,6 +28,10 @@ entries:
         url: /intro/gathering-your-tools/
         output: web
 
+        - title: Wireshark 
+          url: /intro/gathering-your-tools/wireshark
+          output: web
+
   - title: Linux
     output: web
     folderitems:

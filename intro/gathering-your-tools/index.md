@@ -14,19 +14,19 @@ are free.
 ## Virtualization: VirtualBox
 
 In studying security, we need to be able to try many different things out, and
-we usually want to avoid messing up our computers. The easiest way to do that is
-to do our practice in virtual machines or VMs. The easiest/cheapest way to do
-that is with a piece of software called VirtualBox, which can be downloaded for
-free from [Oracle's VirtualBox site][virtualbox].
+we usually want to avoid messing up our own computers. The easiest way to do 
+that is to use virtual machines, also known as VMs. The easiest/cheapest way to
+start using VMs is with a piece of software called VirtualBox, which can be 
+downloaded for free from [Oracle's VirtualBox website][virtualbox].
 
-Other popular virtualization programs include VMWare, Xen, Hyper-V, and KVM, if
-you were to want to do more research. However, most of those are aimed primarily at
-servers.
+Other popular virtualization programs include VMWare, Xen, Hyper-V, and KVM, 
+however, most of those are aimed primarily at servers or require extensive setup
+for use on PCs.
 
 ### Getting some VMs
 
-Once you've installed that, you'll want an operating system to run inside your
-VM. A VM without an operating system is just like a normal computer without an
+Once you've installed VirtualBox, you'll want an operating system to run inside
+your VM. A VM without an operating system is just like a normal computer without an
 operating system: it doesn't do anything.
 
 #### Kali Linux
@@ -34,21 +34,22 @@ operating system: it doesn't do anything.
 So for security-specific work, you'll want to start with Kali Linux. It's far
 from perfect, but it's a great start because it comes with almost all the tools
 you'll need already installed (or easily available). For instance, most
-competitions we participate in seem to assume you have the tools that come with
-Kali. You could try to install them one at a time, but its easiest to use Kali.
+competitions we participate in typically assume you have the tools that come 
+with Kali. You could try to install them one at a time, but its easiest to use 
+Kali.
 
-You could install it manually, but to try it out, you can use a pre-made VM. You
-can download it from the Offensive Security website: [Kali Linux Custom Images
-Download][offensive-security-kali]. (You'll want the 64-bit one for VirtualBox,
-unless your computer is only 32-bit.)
+You could install Kali manually, but the maintainers of Kali have created a 
+pre-made VM for VirtualBox. You can download it from the Offensive Security 
+website: [Kali Linux Custom Images Download][offensive-security-kali]. (You'll
+want the 64-bit image for VirtualBox, unless your computer is only 32-bit.)
 
-You'll need 7-zip to unzip that pre-made VM, which you can download from [the
+You'll need 7-zip to unzip the pre-made VM, which you can download from [the
 7-zip site][7zip].
 
 Unzipping the VM will give you a .ova file, which you can import into VirtualBox
 by doing File > Import Appliance.
 
-I'll recommend starting with that, but keep in mind it's good for security
+We recommend starting with Kali Linux, but keep in mind it's good for security
 practice, not general Linux practice. Particularly of note is that it has you
 logging in as root, which is *reasonably okay* to do in Kali, but you should
 **absolutely not** log in directly as root otherwise. (You should instead log
@@ -56,7 +57,7 @@ in as a regular user and then use something like `su` or use `sudo`)
 
 #### Optional: Ubuntu Linux or CentOS Linux
 
-**Optional**: So this is optional, but if you want to do more-normal Linux
+**Optional**: So this is optional, but if you want to have a realistic Linux
 practice, you can install another Linux distribution in another VM. (That's the
 beauty of VMs -- you can have more than one at a time.)
 

@@ -5,5 +5,7 @@
 topnav:
 - title: Topnav
   items:
+    - title: Our GitHub
+      external_url: https://github.com/UMBCCyberDawgs
     - title: Home
       external_url: http://umbccd.umbc.edu

@@ -28,6 +28,10 @@ entries:
         url: /intro/gathering-your-tools/
         output: web
 
+      - title: Wireshark
+        url: /intro/wireshark/
+        output: web
+
       - title: Crypto 1
         url: /intro/crypto-1/
         output: web
